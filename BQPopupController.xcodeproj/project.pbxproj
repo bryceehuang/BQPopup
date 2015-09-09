@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842E438D1B900936009B5E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E438C1B900936009B5E17 /* main.m */; };
+		842E43901B900936009B5E17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E438F1B900936009B5E17 /* AppDelegate.m */; };
+		842E43931B900936009B5E17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E43921B900936009B5E17 /* ViewController.m */; };
+		842E43961B900936009B5E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842E43941B900936009B5E17 /* Main.storyboard */; };
+		842E43981B900936009B5E17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842E43971B900936009B5E17 /* Images.xcassets */; };
+		842E439B1B900936009B5E17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842E43991B900936009B5E17 /* LaunchScreen.xib */; };
+		842E43A71B900937009B5E17 /* BQPopupControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E43A61B900937009B5E17 /* BQPopupControllerTests.m */; };
+		842E43B51B900D70009B5E17 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842E43B31B900D70009B5E17 /* Localizable.strings */; };
+		842E43B81B900D79009B5E17 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842E43B61B900D79009B5E17 /* Localizable.strings */; };
+		848B8D2C1BA0167E006CAE98 /* interduce03.png in Resources */ = {isa = PBXBuildFile; fileRef = 848B8D291BA0167E006CAE98 /* interduce03.png */; };
+		848B8D2D1BA0167E006CAE98 /* interduce02.png in Resources */ = {isa = PBXBuildFile; fileRef = 848B8D2A1BA0167E006CAE98 /* interduce02.png */; };
+		848B8D2E1BA0167E006CAE98 /* interduce01.png in Resources */ = {isa = PBXBuildFile; fileRef = 848B8D2B1BA0167E006CAE98 /* interduce01.png */; };
+		84C6B7AB1B9578130022E994 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6B7AA1B9578130022E994 /* QuartzCore.framework */; };
+		84C6C7AB1B9C0B18000C0879 /* BQPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6C7A91B9C0ADD000C0879 /* BQPopupController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842E43A11B900937009B5E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842E437F1B900936009B5E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842E43861B900936009B5E17;
+			remoteInfo = BQPopupController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842E43871B900936009B5E17 /* BQPopupController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BQPopupController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842E438B1B900936009B5E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842E438C1B900936009B5E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842E438E1B900936009B5E17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842E438F1B900936009B5E17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842E43911B900936009B5E17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		842E43921B900936009B5E17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		842E43951B900936009B5E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842E43971B900936009B5E17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		842E439A1B900936009B5E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		842E43A01B900937009B5E17 /* BQPopupControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQPopupControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842E43A51B900937009B5E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842E43A61B900937009B5E17 /* BQPopupControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQPopupControllerTests.m; sourceTree = "<group>"; };
+		842E43B41B900D70009B5E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		842E43B71B900D79009B5E17 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		848B8D291BA0167E006CAE98 /* interduce03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interduce03.png; sourceTree = "<group>"; };
+		848B8D2A1BA0167E006CAE98 /* interduce02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interduce02.png; sourceTree = "<group>"; };
+		848B8D2B1BA0167E006CAE98 /* interduce01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interduce01.png; sourceTree = "<group>"; };
+		84C6B7AA1B9578130022E994 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84C6C7A81B9C0ADD000C0879 /* BQPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQPopupController.h; sourceTree = "<group>"; };
+		84C6C7A91B9C0ADD000C0879 /* BQPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQPopupController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842E43841B900936009B5E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6B7AB1B9578130022E994 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842E439D1B900937009B5E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842E437E1B900936009B5E17 = {
+			isa = PBXGroup;
+			children = (
+				84C6B7AA1B9578130022E994 /* QuartzCore.framework */,
+				842E43891B900936009B5E17 /* BQPopupController */,
+				842E43A31B900937009B5E17 /* BQPopupControllerTests */,
+				842E43881B900936009B5E17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842E43881B900936009B5E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842E43871B900936009B5E17 /* BQPopupController.app */,
+				842E43A01B900937009B5E17 /* BQPopupControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842E43891B900936009B5E17 /* BQPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B7A61B954CB00022E994 /* BQPopup */,
+				842E43B01B9009B6009B5E17 /* Resources */,
+				842E438E1B900936009B5E17 /* AppDelegate.h */,
+				842E438F1B900936009B5E17 /* AppDelegate.m */,
+				842E43911B900936009B5E17 /* ViewController.h */,
+				842E43921B900936009B5E17 /* ViewController.m */,
+				842E43941B900936009B5E17 /* Main.storyboard */,
+				842E43971B900936009B5E17 /* Images.xcassets */,
+				842E43991B900936009B5E17 /* LaunchScreen.xib */,
+				842E438A1B900936009B5E17 /* Supporting Files */,
+			);
+			path = BQPopupController;
+			sourceTree = "<group>";
+		};
+		842E438A1B900936009B5E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842E438B1B900936009B5E17 /* Info.plist */,
+				842E438C1B900936009B5E17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842E43A31B900937009B5E17 /* BQPopupControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				842E43A61B900937009B5E17 /* BQPopupControllerTests.m */,
+				842E43A41B900937009B5E17 /* Supporting Files */,
+			);
+			path = BQPopupControllerTests;
+			sourceTree = "<group>";
+		};
+		842E43A41B900937009B5E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842E43A51B900937009B5E17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842E43B01B9009B6009B5E17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				848B8D291BA0167E006CAE98 /* interduce03.png */,
+				848B8D2A1BA0167E006CAE98 /* interduce02.png */,
+				848B8D2B1BA0167E006CAE98 /* interduce01.png */,
+				842E43B21B900D5D009B5E17 /* en.lproj */,
+				842E43B11B900D44009B5E17 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		842E43B11B900D44009B5E17 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				842E43B61B900D79009B5E17 /* Localizable.strings */,
+			);
+			name = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		842E43B21B900D5D009B5E17 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				842E43B31B900D70009B5E17 /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+		84C6B7A61B954CB00022E994 /* BQPopup */ = {
+			isa = PBXGroup;
+			children = (
+				84C6C7A81B9C0ADD000C0879 /* BQPopupController.h */,
+				84C6C7A91B9C0ADD000C0879 /* BQPopupController.m */,
+			);
+			name = BQPopup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842E43861B900936009B5E17 /* BQPopupController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842E43AA1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQPopupController" */;
+			buildPhases = (
+				842E43831B900936009B5E17 /* Sources */,
+				842E43841B900936009B5E17 /* Frameworks */,
+				842E43851B900936009B5E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BQPopupController;
+			productName = BQPopupController;
+			productReference = 842E43871B900936009B5E17 /* BQPopupController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842E439F1B900937009B5E17 /* BQPopupControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842E43AD1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQPopupControllerTests" */;
+			buildPhases = (
+				842E439C1B900937009B5E17 /* Sources */,
+				842E439D1B900937009B5E17 /* Frameworks */,
+				842E439E1B900937009B5E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842E43A21B900937009B5E17 /* PBXTargetDependency */,
+			);
+			name = BQPopupControllerTests;
+			productName = BQPopupControllerTests;
+			productReference = 842E43A01B900937009B5E17 /* BQPopupControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842E437F1B900936009B5E17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = HuangBQ;
+				TargetAttributes = {
+					842E43861B900936009B5E17 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					842E439F1B900937009B5E17 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 842E43861B900936009B5E17;
+					};
+				};
+			};
+			buildConfigurationList = 842E43821B900936009B5E17 /* Build configuration list for PBXProject "BQPopupController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 842E437E1B900936009B5E17;
+			productRefGroup = 842E43881B900936009B5E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842E43861B900936009B5E17 /* BQPopupController */,
+				842E439F1B900937009B5E17 /* BQPopupControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842E43851B900936009B5E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848B8D2C1BA0167E006CAE98 /* interduce03.png in Resources */,
+				842E43B81B900D79009B5E17 /* Localizable.strings in Resources */,
+				842E43961B900936009B5E17 /* Main.storyboard in Resources */,
+				842E43B51B900D70009B5E17 /* Localizable.strings in Resources */,
+				848B8D2D1BA0167E006CAE98 /* interduce02.png in Resources */,
+				842E439B1B900936009B5E17 /* LaunchScreen.xib in Resources */,
+				848B8D2E1BA0167E006CAE98 /* interduce01.png in Resources */,
+				842E43981B900936009B5E17 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842E439E1B900937009B5E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842E43831B900936009B5E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6C7AB1B9C0B18000C0879 /* BQPopupController.m in Sources */,
+				842E43931B900936009B5E17 /* ViewController.m in Sources */,
+				842E43901B900936009B5E17 /* AppDelegate.m in Sources */,
+				842E438D1B900936009B5E17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842E439C1B900937009B5E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842E43A71B900937009B5E17 /* BQPopupControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842E43A21B900937009B5E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842E43861B900936009B5E17 /* BQPopupController */;
+			targetProxy = 842E43A11B900937009B5E17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842E43941B900936009B5E17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842E43951B900936009B5E17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842E43991B900936009B5E17 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842E439A1B900936009B5E17 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		842E43B31B900D70009B5E17 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842E43B41B900D70009B5E17 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		842E43B61B900D79009B5E17 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842E43B71B900D79009B5E17 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842E43A81B900937009B5E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842E43A91B900937009B5E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842E43AB1B900937009B5E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BQPopupController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		842E43AC1B900937009B5E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BQPopupController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		842E43AE1B900937009B5E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BQPopupControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQPopupController.app/BQPopupController";
+			};
+			name = Debug;
+		};
+		842E43AF1B900937009B5E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BQPopupControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQPopupController.app/BQPopupController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842E43821B900936009B5E17 /* Build configuration list for PBXProject "BQPopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842E43A81B900937009B5E17 /* Debug */,
+				842E43A91B900937009B5E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842E43AA1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQPopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842E43AB1B900937009B5E17 /* Debug */,
+				842E43AC1B900937009B5E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842E43AD1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQPopupControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842E43AE1B900937009B5E17 /* Debug */,
+				842E43AF1B900937009B5E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842E437F1B900936009B5E17 /* Project object */;
+}
