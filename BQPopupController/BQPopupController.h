@@ -27,10 +27,13 @@ typedef void(^BQButtonAction) (BQButton *button);
 @property (nonatomic, strong) NSAttributedString *title;
 
 /**
- *  BQPopupHeight
+ *  BQPopupHeight, when popupStyle is BQPopupStyleActionSheet,if popupHeight less than or equal keyWindow.frame.size.height/2, the final popupHeight is popupHeight, or it will be setted as keyWindow.frame.size.height/2.
  */
 @property (nonatomic, assign) CGFloat popupHeight;
 
+/**
+ *  popupWidth，normally is screenWidth.
+ */
 @property (nonatomic, assign) CGFloat popupWidth;
 
 /* content view array */
@@ -48,7 +51,7 @@ typedef void(^BQButtonAction) (BQButton *button);
 /*************************************/
 
 /**
- *  The way to show PopupController
+ *  The way to show PopupController, default is BQPopupStyleAlert.
  */
 @property (nonatomic, assign) BQPopupStyle popupStyle;
 
@@ -58,20 +61,23 @@ typedef void(^BQButtonAction) (BQButton *button);
 @property BOOL dismissOnTouchBackground;
 
 /**
- *  Controls whether show scrollview's vertical indicator
+ *  Controls whether show scrollview's vertical indicator, default is NO.
  */
 @property BOOL showVerticalScrollIndicator;
 
 /**
- *  cornnerRadius of scrollview and contentview
+ *  cornnerRadius of scrollview and contentview, default is 8.0f.
  */
 @property (nonatomic, assign) CGFloat cornerRadius;
 
 /**
- *  contentview background color
+ *  contentview background color, default is whiteColor
  */
 @property (nonatomic, strong) UIColor *contentBackgroundColor;
 
+/**
+ *  default is (16.0f, 16.0f, 16.0f, 16.0f).
+ */
 @property (nonatomic, assign) UIEdgeInsets contentInsets;
 
 /**
@@ -79,6 +85,9 @@ typedef void(^BQButtonAction) (BQButton *button);
  */
 @property (nonatomic, assign) CGFloat paddingForSubviews;
 
+/**
+ *  default 16.0f;
+ */
 @property (nonatomic, assign) CGFloat finalButtonPadding;
 
 /*************************************/

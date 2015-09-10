@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>930309EB-6B1A-440D-B821-114EC531FF3E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BQPopupController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65B985DB58FAF49D64671A7233CA9F64997D356D</key>
+		<string>github.com:bingqihuang/BQPopup.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BQPopupController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65B985DB58FAF49D64671A7233CA9F64997D356D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:bingqihuang/BQPopup.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65B985DB58FAF49D64671A7233CA9F64997D356D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65B985DB58FAF49D64671A7233CA9F64997D356D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BQPopup</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841DDDB91BA121D300D63934 /* BQPopup.gif in Resources */ = {isa = PBXBuildFile; fileRef = 841DDDB81BA121D300D63934 /* BQPopup.gif */; };
 		842E438D1B900936009B5E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E438C1B900936009B5E17 /* main.m */; };
 		842E43901B900936009B5E17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E438F1B900936009B5E17 /* AppDelegate.m */; };
 		842E43931B900936009B5E17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E43921B900936009B5E17 /* ViewController.m */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841DDDB81BA121D300D63934 /* BQPopup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BQPopup.gif; sourceTree = "<group>"; };
 		842E43871B900936009B5E17 /* BQPopupController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BQPopupController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842E438B1B900936009B5E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842E438C1B900936009B5E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				848B8D291BA0167E006CAE98 /* interduce03.png */,
 				848B8D2A1BA0167E006CAE98 /* interduce02.png */,
 				848B8D2B1BA0167E006CAE98 /* interduce01.png */,
+				841DDDB81BA121D300D63934 /* BQPopup.gif */,
 				842E43B21B900D5D009B5E17 /* en.lproj */,
 				842E43B11B900D44009B5E17 /* zh-Hans.lproj */,
 			);
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848B8D2C1BA0167E006CAE98 /* interduce03.png in Resources */,
+				841DDDB91BA121D300D63934 /* BQPopup.gif in Resources */,
 				842E43B81B900D79009B5E17 /* Localizable.strings in Resources */,
 				842E43961B900936009B5E17 /* Main.storyboard in Resources */,
 				842E43B51B900D70009B5E17 /* Localizable.strings in Resources */,

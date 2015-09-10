@@ -155,6 +155,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark BQPopControllerDelegate
+- (void)controllerWillPresent:(BQPopupController *)controller {
+    NSLog(@"BQPopup will present...");
+}
+
+- (void)controllerDidPresent:(BQPopupController *)controller {
+    NSLog(@"BQPopup is presented...");
+}
+
+- (void)controllerWillDismiss:(BQPopupController *)controller {
+    NSLog(@"BQPopup will dismiss...");
+}
+- (void)controllerDidDismiss:(BQPopupController *)controller {
+    NSLog(@"BQPopup did dismiss...");
+}
+
 - (UIColor*) colorWithHexString: (NSString *)color
 {
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
@@ -196,22 +212,5 @@
     
     return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:1.0f];
 }
-
-#pragma mark BQPopControllerDelegate
-- (void)controllerWillPresent:(BQPopupController *)controller {
-    NSLog(@"BQPopup will present...");
-}
-
-- (void)controllerDidPresent:(BQPopupController *)controller {
-    NSLog(@"BQPopup is presented...");
-}
-
-- (void)controllerWillDismiss:(BQPopupController *)controller {
-    NSLog(@"BQPopup will dismiss...");
-}
-- (void)controllerDidDismiss:(BQPopupController *)controller {
-    NSLog(@"BQPopup did dismiss...");
-}
-
 
 @end
