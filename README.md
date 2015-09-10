@@ -1,6 +1,8 @@
 # BQPopup
 A PopupController which can scroll when contains a lot of subviews.
 
+BQPopup支持ARC，Autolayout。
+
 ## 声明
 本项目是在carsonperrotti大神的项目基础上修改的，当时是为了满足项目需求，实现了可滚动浏览。
 
