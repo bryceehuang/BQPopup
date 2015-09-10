@@ -9,6 +9,7 @@ carsonperrotti项目地址：
 [https://github.com/carsonperrotti/CNPPopupController](https://github.com/carsonperrotti/CNPPopupController)
 
 ## 项目效果图
+### 图比较大，耐心等待...
 ![BQPopup](./BQPopupController/BQPopup.gif)
 
 ## 属性列表
@@ -83,3 +84,9 @@ carsonperrotti项目地址：
 
 ```
 
+## 欢迎Star
+我正在iOS路上，追随大牛们的步伐。欢迎关注：
+
+新浪微博：[http://www.weibo.com/2609034524/profile?rightmod=1&wvr=6&mod=personinfo](http://www.weibo.com/2609034524/profile?rightmod=1&wvr=6&mod=personinfo)
+
+博客地址：[http://bingqihuang.github.io/](http://bingqihuang.github.io/)
