@@ -357,7 +357,7 @@
 #pragma mark - dismiss Controller
 - (void)dismissPopupControllerAnimated:(BOOL)animated {
     
-    if ([self.delegate respondsToSelector:@selector(controllerWillPresent:)]) {
+    if ([self.delegate respondsToSelector:@selector(controllerWillDismiss:)]) {
         [self.delegate controllerWillDismiss:self];
     }
     
@@ -378,7 +378,7 @@
                          self.contentView = nil;
                          self.scrollView = nil;
                          self.backgroundView = nil;
-                         if ([self.delegate respondsToSelector:@selector(controllerDidPresent:)])
+                         if ([self.delegate respondsToSelector:@selector(controllerDidDismiss:)])
                          {
                              [self.delegate controllerDidDismiss:self];
                          }
